@@ -27,56 +27,67 @@ h1{
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
-  }
+    display: block;
+}
+
+
+.container{
+    color: aliceblue;
+    background-color:  rgb(15, 15, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 30%;
+    display: block;
+    height: 15%;
+    text-align: justify;
+}
+
+img.float-left{
+    height: 85%;
+    background-color: aliceblue;
+    float: left;
+}
 
 
 .box{
     color: aliceblue;
-    background-color: rgb(31, 31, 78);
-    font-family: 'Courier New', Courier, monospace;
+    background-color:  rgb(15, 15, 32);
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
     width: 30%;
     display: block;
-
-
-
-}
-
-img.float-left{
     height: 15%;
-    background-color: aliceblue;
-    float: left;
-    
-
-    
-}
-
-
-.box2{
-    color: aliceblue;
-    background-color: rgb(31, 31, 78);
-    font-family: 'Courier New', Courier, monospace;
-    float: left;
-    width: 30%;
-    display: block;
+    text-align: justify;
 }
 
 
 img.float-center{
-    height: 15%;
+    height: 85%;
     background-color: aliceblue;
     float: left;
-
-    
-
 }
 
 
-
+.case{
+    color: aliceblue;
+    background-color: rgb(15, 15, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 30%;
+    display: block;
+    height: 15%;
+    text-align: justify;
+}
 
 img.float-right{
-    
+    height: 85%;
+    background-color: aliceblue;
+    float: left;
+
+
+
+
+
 
 
 
